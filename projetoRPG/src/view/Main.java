@@ -151,6 +151,12 @@ public Main() {
 	
 	contentPane.add(btnSair);
 	
+	JLabel lblNewLabel = new JLabel("");
+	lblNewLabel.setIcon(new ImageIcon(Main.class.getResource("/imagens/pixil-frame-0 (4).png")));
+	lblNewLabel.setBounds(111, 72, 561, 353);
+	contentPane.add(lblNewLabel);
+	
+	
 	JLabel Wallpaper = new JLabel("");
 	
 	Wallpaper.setIcon(new ImageIcon(Main.class.getResource("/imagens/login_infdungeon.png")));
@@ -159,8 +165,8 @@ public Main() {
 	
 	contentPane.add(Wallpaper);
 	
+
 	
 	
 	}
-
 }
